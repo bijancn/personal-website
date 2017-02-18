@@ -1,0 +1,193 @@
+@charset "utf-8";
+/*
+* Bijan Chokoufe Nejad. Website.
+*
+* link http://bijan.chokoufe.com
+* version 1.0
+*/
+
+// Using less for color management
+//@maincol: #3873B3;
+@maincol: #548dca;
+@darkmaincol: #2F5D8F;
+//@darkmaincol: #3873B3;
+@sndcol: #FF7700;
+@brdrgray: #9ea191;
+@gray: #737373;
+@lightgray: #ccc;
+@verylightgray: #e8e8e8;
+@stackgray: rgb(238, 238, 238);
+@black: rgb(34, 34, 34);
+
+@width: 35em;
+
+/* Resetting outer and inner spacings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body{
+  font-size : 17.0px; 
+  font-family: Palatino, 'Palatino Linotype', serif;
+  background-color : white;
+  color : @black;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+  font-weight: normal;
+  width : @width;
+  height : 100%;
+  line-height : 1.40;
+  margin-left : auto;
+  margin-right : auto;
+  //text-rendering: optimizelegibility;
+/*  box-shadow : 8px 0px 8px @verylightgray,
+               -8px 0px 8px @verylightgray;
+  padding-left : 9px;
+  padding-right : 9px; */
+}
+
+/* Disabling automatic display of title, author and date */
+.title, .author, .date {
+  display: none;
+}
+
+/* Shadow boxes didn't pan out too well */
+//#p1 {
+//  /*   box-shadow : 8px 0px 8px @verlightgray,
+//              -8px 0px 8px @verylightgray;
+//            0px 8px 8px @verylightgray,
+//               0px -8px 8px @verylightgray; */
+//  box-shadow : 0.5em 0em 0.5em @verylightgray,
+//               -0.5em 0em 0.5em @verylightgray;
+//  padding :  0.5em;
+//  margin :  0.5em;
+//}
+
+#wrapper {
+	min-height : 100%;
+	position : relative;
+}
+
+#content {
+  padding-bottom : 5em; /* Height of the footer element */
+}
+
+/* Highlights */
+
+h1 {
+  color : @gray;
+  /*background-color: white;*/
+  font-size : 2em;
+  line-height : 1.4;
+  /*margin: .8em 0;*/
+}
+h2 {
+  color : @sndcol;
+  /*background-color:#2F5D8F */
+  font-size : 1.3em;
+  line-height : 1.4;
+  margin-top : 1.5em;
+  margin-bottom : 0.5em;
+}
+h2:before {
+  content : " ↪ ";
+}
+h3 {
+  color : @gray;
+  font-size : 1.1em;
+  /*line-height: 1.1;*/
+}
+
+table, th, td
+{
+border: 0px solid black;
+}
+td
+{
+padding:.1em;
+}
+
+code {
+	//font-family: CourierX, Courier, "Courier New", monospace;
+  font-family: 'DejaVu LGC Sans Mono', Menlo, 'DejaVu Sans Mono', Consolas, 'Everson Mono', 'Lucida Console', 'Andale Mono', 'Nimbus Mono L', 'Liberation Mono', FreeMono, 'Osaka Monospaced', Courier, 'New Courier', monospace;
+	font-size: 85%;
+  background-color : @stackgray;
+  border: 1px solid @brdrgray;
+  color : @black;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+}
+
+       
+/* Absätze */
+p { 
+  margin : .8em 0; 
+  //text-align : justify;
+}
+
+/* Links */
+a:link {
+  color : @maincol;
+  background-color : transparent;
+}
+a:visited {
+  color : @darkmaincol;
+  background-color : transparent;
+}
+a:hover, a:focus {
+  color : @sndcol;
+  background-color : transparent;
+}
+a:active {
+  color : @darkmaincol;
+  background-color : transparent;
+}
+
+
+/* Kopfbereich */
+#head {
+  top : 1em;
+  /*width: 40em;*/
+  margin : auto;
+  position : relative;
+  padding-bottom : 2em;
+  border-bottom : 1px solid @lightgray; 
+}
+ 
+/* Navigation Bar */
+#nav {
+  position : absolute;
+  bottom : .2em;
+  right : 0;
+  /*width: 100%;*/
+   /*float: left;*/
+   /*padding: 0;*/
+   list-style: none;
+ }
+#nav li {
+   float: left; 
+ }
+#nav li a {
+   padding : .7em; 
+   text-decoration : none;
+   font-weight : bold;
+   color : @maincol;
+   //border-left : 1px solid #ccc; 
+ }
+#nav li a:hover {
+   color : @sndcol;
+ }
+
+/* Footer */
+div#footer {
+//  width : @width;
+  height : 4em;
+	font-size: 90%;
+  border-top : 1px solid @lightgray; 
+  position : absolute;
+  bottom : 0;
+}
