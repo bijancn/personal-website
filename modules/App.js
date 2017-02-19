@@ -10,9 +10,9 @@ export default React.createClass({
         <h1><span className="title-highlight">Bijan</span> Chokoufe Nejad</h1>
         <ul role="nav" id="nav">
           <li><NavLink to="/" onlyActiveOnIndex={true}>Home</NavLink></li>
-          <li><NavLink to="/about">About</NavLink></li>
           <li><NavLink to="/repos">Repos</NavLink></li>
           <li><NavLink to="/physics">Physics</NavLink></li>
+          <li><NavLink to="/latex-packages">Latex Packages</NavLink></li>
         </ul>
         </div>
           {React.cloneElement(this.props.children, {

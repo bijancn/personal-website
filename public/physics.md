@@ -1,4 +1,4 @@
-## write-ups
+## talks
 
 All presentations have been created with the [Beamer][beam] LaTeX class.
 
@@ -72,7 +72,7 @@ My *Bachelor thesis* at TP IV: Mesoscopic Physics (University of Wuerzburg),
 supervised by Prof. Dr. B. Trauzettel and Dr. P. Michetti, provides
 a theoretical calculation of the expected experimental results when a strong
 magnetic field is applied to a [double quantum well][DQW] with interlayer
-voltage. It is shown that the existence of a crossing of $n=0$ Landau levels
+voltage. It is shown that the existence of a crossing of `n=0` Landau levels
 leads to the same necessary condition for the interlayer voltage as the existing
 calculation of the topological invariant. For this work, there is also
 a [talk][bachelor_talk] available. (2012, English)
