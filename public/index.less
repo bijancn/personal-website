@@ -1,16 +1,7 @@
 @charset "utf-8";
-/*
-* Bijan Chokoufe Nejad. Website.
-*
-* link http://bijan.chokoufe.com
-* version 1.0
-*/
 
-// Using less for color management
-//@maincol: #3873B3;
 @maincol: #548dca;
 @darkmaincol: #2F5D8F;
-//@darkmaincol: #3873B3;
 @sndcol: #FF7700;
 @brdrgray: #9ea191;
 @gray: #737373;
@@ -29,8 +20,8 @@
 
 html,
 body{
-  font-size : 17.0px; 
-  font-family: Palatino, 'Palatino Linotype', serif;
+  font-size : 17.0px;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
   background-color : white;
   color : @black;
   font-style: normal;
@@ -43,32 +34,11 @@ body{
   margin-left : auto;
   margin-right : auto;
   //text-rendering: optimizelegibility;
-/*  box-shadow : 8px 0px 8px @verylightgray,
-               -8px 0px 8px @verylightgray;
-  padding-left : 9px;
-  padding-right : 9px; */
 }
-
-/* Disabling automatic display of title, author and date */
-.title, .author, .date {
-  display: none;
-}
-
-/* Shadow boxes didn't pan out too well */
-//#p1 {
-//  /*   box-shadow : 8px 0px 8px @verlightgray,
-//              -8px 0px 8px @verylightgray;
-//            0px 8px 8px @verylightgray,
-//               0px -8px 8px @verylightgray; */
-//  box-shadow : 0.5em 0em 0.5em @verylightgray,
-//               -0.5em 0em 0.5em @verylightgray;
-//  padding :  0.5em;
-//  margin :  0.5em;
-//}
 
 #wrapper {
-	min-height : 100%;
-	position : relative;
+  min-height : 100%;
+  position : relative;
 }
 
 #content {
@@ -111,9 +81,9 @@ padding:.1em;
 }
 
 code {
-	//font-family: CourierX, Courier, "Courier New", monospace;
+  //font-family: CourierX, Courier, "Courier New", monospace;
   font-family: 'DejaVu LGC Sans Mono', Menlo, 'DejaVu Sans Mono', Consolas, 'Everson Mono', 'Lucida Console', 'Andale Mono', 'Nimbus Mono L', 'Liberation Mono', FreeMono, 'Osaka Monospaced', Courier, 'New Courier', monospace;
-	font-size: 85%;
+  font-size: 85%;
   background-color : @stackgray;
   border: 1px solid @brdrgray;
   color : @black;
@@ -122,11 +92,10 @@ code {
   font-variant: normal;
 }
 
-       
-/* Absätze */
-p { 
-  margin : .8em 0; 
-  //text-align : justify;
+
+/* Paragraphs */
+p {
+  margin : .8em 0;
 }
 
 /* Links */
@@ -147,47 +116,46 @@ a:active {
   background-color : transparent;
 }
 
-
-/* Kopfbereich */
+/* Head */
 #head {
   top : 1em;
-  /*width: 40em;*/
   margin : auto;
   position : relative;
   padding-bottom : 2em;
-  border-bottom : 1px solid @lightgray; 
+  border-bottom : 1px solid @lightgray;
 }
- 
+
+.title-highlight {
+  color: #ccc;
+}
+
 /* Navigation Bar */
 #nav {
   position : absolute;
   bottom : .2em;
   right : 0;
-  /*width: 100%;*/
-   /*float: left;*/
-   /*padding: 0;*/
    list-style: none;
- }
+}
 #nav li {
-   float: left; 
- }
+   float: left;
+}
 #nav li a {
-   padding : .7em; 
+   padding : .7em;
    text-decoration : none;
    font-weight : bold;
    color : @maincol;
-   //border-left : 1px solid #ccc; 
- }
+   //border-left : 1px solid #ccc;
+}
 #nav li a:hover {
    color : @sndcol;
- }
+}
 
 /* Footer */
 div#footer {
 //  width : @width;
   height : 4em;
-	font-size: 90%;
-  border-top : 1px solid @lightgray; 
+  font-size: 90%;
+  border-top : 1px solid @lightgray;
   position : absolute;
   bottom : 0;
 }
