@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 import NavLink from './NavLink'
+import Socials from './Socials.js'
 
 export default React.createClass({
   render() {

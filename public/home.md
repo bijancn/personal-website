@@ -1,10 +1,8 @@
 ## welcome ##
 
 I will finish my PhD in theoretical particle physics at DESY, Hamburg in
-July 2017.
+July 2017. 
 
-## socials ##
+If you are interested, you can have a look at my [CV].
 
-[github][github]
-[cv]: files/bchokoufe-cv.pdf
-[github]: https://github.com/bijancn
+[CV]: files/bchokoufe-cv.pdf

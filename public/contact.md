@@ -1,13 +1,9 @@
-% Bijan Chokoufe Nejad - Contact
-% Bijan Chokoufe Nejad
-% @@TODAY@@
-
 contact information
 -------------------
 
-| Bijan Chokoufe Nejad
-| Strehlowweg 52
-| 22605 Hamburg
+Bijan Chokoufe Nejad  
+Strehlowweg 52  
+22605 Hamburg
 
 bijan [AT] chokoufe.com
 
